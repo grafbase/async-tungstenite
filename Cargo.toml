@@ -86,6 +86,8 @@ package = "tokio-native-tls"
 optional = true
 version = "0.25"
 package = "tokio-rustls"
+default-features = false
+features = ["ring"]
 
 [dependencies.rustls-pki-types]
 optional = true
