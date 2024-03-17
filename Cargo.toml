@@ -90,6 +90,7 @@ optional = true
 version = "0.26"
 package = "tokio-rustls"
 default-features = false
+features = ["ring"]
 
 [dependencies.rustls-pki-types]
 optional = true
